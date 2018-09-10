@@ -1,14 +1,17 @@
 {
-    "name": "app-service-hello-world",
-    "description": "Simple Hello World Node.js sample for Azure App Service",
+    "name": "parrot-skill",
+    "description": "Parrot skill",
     "version": "0.0.1",
     "private": true,
     "license": "MIT",
-    "author": "Microsoft",
+    "author": "Pirim",
     "engines": {
         "node": ">=6.9.1"
     },
     "scripts": {
         "start": "node index.js"
+    },
+    "dependencies": {
+        "express": "^4.16.3"
     }
 }
